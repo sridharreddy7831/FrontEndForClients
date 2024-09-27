@@ -1,0 +1,12 @@
+{
+  "name": "frontendforclients",
+  "version": "1.0.0",
+  "description": "front end by vite for clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "students": "vite build --config src/Clients/Students/NiceAdmin/vite.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

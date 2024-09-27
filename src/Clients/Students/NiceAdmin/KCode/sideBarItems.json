@@ -1,0 +1,87 @@
+[
+    {
+        "name": "ItemNames",
+        "key": "ItemNames",
+        "children": [
+            {
+                "name": "CreateSingle",
+                "url": "ItemNamesCreateSingle.html",
+                "icon": "bi bi-plus-circle"
+            },
+           
+            {
+                "name": "ShowWithInsert",
+                "url": "ItemNamesShow.html",
+                "icon": "bi bi-file-earmark-plus"
+            }
+        ]
+    },
+    {
+        "name": "LedgerNames",
+        "key": "LedgerNames",
+        "children": [
+            {
+                "name": "CreateSingle",
+                "url": "LedgerNamesCreateSingle.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "ShowWithInsert",
+                "url": "LedgerNamesShow.html",
+                "icon": "bi bi-file-earmark-plus"
+            }
+        ]
+    },
+    {
+        "name": "SaleItems",
+        "key": "SaleItems",
+        "children": [
+            {
+                "name": "CreateSingle",
+                "url": "SaleItemsCreateSingle.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "CreateDataList",
+                "url": "SaleItemsCreateDataList.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "CreateSubTable",
+                "url": "SaleItemsCreateSubTable.html",
+                "icon": "bi bi-table"
+            },
+            {
+                "name": "ShowWithInsert",
+                "url": "SaleItemsShow.html",
+                "icon": "bi bi-file-earmark-plus"
+            }
+        ]
+    },
+    {
+        "name": "Sales",
+        "key": "Sales",
+        "children": [
+            {
+                "name": "CreateSingle",
+                "url": "SalesCreateSingle.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "CreateDataList",
+                "url": "SalesCreateDataList.html",
+                "icon": "bi bi-plus-circle"
+            },
+            {
+                "name": "CreateSubTable",
+                "url": "SalesCreateSubTable.html",
+                "icon": "bi bi-table"
+            },
+            {
+                "name": "ShowWithInsert",
+                "url": "SalesShow.html",
+                "icon": "bi bi-file-earmark-plus"
+            }
+        ]
+    }
+]
