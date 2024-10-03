@@ -1,3 +1,5 @@
+import acceptFileTypesJson from './acceptFileTypes.json' with {type: 'json'};
+
 let StartFunc = () => {
     let jVarLocalForm = document.getElementById("FormId");
     let jVarLocalRequiredElements = jVarLocalForm.querySelectorAll("[required]");
@@ -27,12 +29,12 @@ let jFLocalSelectFile = () => {
     let fileInput = document.getElementById("formFile");
     let file = fileInput.files[0];
 
-    if (file.type === "image/png") {
+    if (acceptFileTypesJson.includes(file.type)) {
         return true;
     } else {
-        alert("Only PNG files are accepted.");
+        alert(`Only ${acceptFileTypesJson.toString()} file types are accepted...`);
         return false;
-    }
+    };
 };
 
 // const jFLocalSelectFile = () => {
