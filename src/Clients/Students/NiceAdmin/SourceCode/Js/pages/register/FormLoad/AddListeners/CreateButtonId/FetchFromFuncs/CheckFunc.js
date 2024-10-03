@@ -23,19 +23,31 @@ let StartFunc = () => {
     return jVarLocalReturnTF;
 };
 
-const jFLocalSelectFile = () => {
-    let jVarLocalformFile = document.getElementById('formFile');
+let jFLocalSelectFile = () => {
+    let fileInput = document.getElementById("formFile");
+    let file = fileInput.files[0];
 
-    if (jVarLocalformFile.files.length === 0) {
-        jVarLocalformFile.classList.add("is-invalid");
-
+    if (file.type === "image/png") {
+        return true;
+    } else {
+        alert("Only PNG files are accepted.");
         return false;
-    };
-
-    jVarLocalformFile.classList.remove("is-invalid");
-    jVarLocalformFile.classList.add("is-valid");
-
-    return true;
+    }
 };
+
+// const jFLocalSelectFile = () => {
+//     let jVarLocalformFile = document.getElementById('formFile');
+
+//     if (jVarLocalformFile.files.length === 0) {
+//         jVarLocalformFile.classList.add("is-invalid");
+
+//         return false;
+//     };
+
+//     jVarLocalformFile.classList.remove("is-invalid");
+//     jVarLocalformFile.classList.add("is-valid");
+
+//     return true;
+// };
 
 export { StartFunc }
