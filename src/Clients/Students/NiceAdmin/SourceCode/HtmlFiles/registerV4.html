@@ -34,18 +34,11 @@
                                     </div>
                                 </div>
 
-                                <!-- <div class="col-12">
+                                <div class="col-12">
                                     <label for="MobileId" class="form-label">Mobile</label>
                                     <input type="number" name="Mobile" class="form-control" id="MobileId" required>
                                     <div class="invalid-feedback">Please enter your password!</div>
                                 </div>
-                                 -->
-                                <div class="col-12">
-                                    <label for="MobileId" class="form-label">Mobile</label>
-                                    <input name="Mobile" type="tel" class="form-control" autocomplete="off"
-                                        id="MobileId">
-                                </div>
-
                                 <div class="col-12">
                                     <label for="EmailId" class="form-label">User Email</label>
                                     <input type="email" name="Email" class="form-control" id="EmailId" required>
@@ -117,9 +110,6 @@
 {% endblock %}
 
 {% block js %}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-
 <!-- <script type="module" src="../Js/pages/register/StartFunc.js"></script> -->
-<script type="module" src="../Js/pages/register/StartFunc.js"></script>
+<script type="module" src="../Js/pages/registerV4/StartFunc.js"></script>
 {% endblock %}
