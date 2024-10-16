@@ -1,25 +1,10 @@
-let StartFunc = async ({ inProjectName }) => {
+import ConfigJson from '../../../../config.json' with {type: 'json'};
+
+let StartFunc = async () => {
     let LocalReturnObject = { KTF: false, KResult: "", JsonData: {} };
 
     try {
-        let inFetchPostData = {
-            inFolderName: "Masters",
-            inFileNameOnly: "Items",
-            inItemName: "ItemName",
-            ScreenName: "ForDataList"
-        };
-
-        //        let jVarLocalFetchUrl = `/${inProjectName}/API/Data/FromFolder/FromFile/Items/FromDataFolder/AsArrayWithPK`;
-        let jVarLocalFetchUrl = `/bin/Items/DataOnly`;
-
-        let jVarLocalFetchHeaders = {
-            method: "post",
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(inFetchPostData)
-        };
+        let jVarLocalFetchUrl = `/${ConfigJson.StartUrl}/Items/Show/DataOnly`;
 
         const response = await fetch(jVarLocalFetchUrl);
         const data = await response.json();
@@ -32,23 +17,6 @@ let StartFunc = async ({ inProjectName }) => {
     };
 
     return await LocalReturnObject;
-};
-
-let LocalAfterSaveFunc = ({ inFetchPostData }) => {
-    if (inFetchPostData.KTF) {
-        //argon.showSwal('success-message');
-        window.location = "../ShowAll/ShowAll.html?FromSave=true";
-    } else {
-        if ("KReason" in inFetchPostData) {
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: inFetchPostData.KReason,
-                footer: '<a href="">Why do I have this issue?</a>'
-            });
-        };
-    };
-
 };
 
 export { StartFunc };

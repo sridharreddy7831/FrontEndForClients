@@ -1,25 +1,10 @@
-let FromNode = async ({ inFolderName, inFileName, inItemName, inProjectName }) => {
+import ConfigJson from '../../../../config.json' with {type: 'json'};
+
+let FromNode = async () => {
     try {
         let LocalReturnObject = { KTF: false, KResult: "", JsonData: {} };
 
-        // let jVarLocalFetchUrl = `/${inProjectName}/API/Data/FromFolder/FromFile/Items/FromDataFolder/AsArrayWithPK`;
-        let jVarLocalFetchUrl = `/bin/Suppliers/DataOnly`;
-
-        let inFetchPostData = {
-            inFolderName,
-            inFileNameOnly: inFileName,
-            inItemName,
-            inScreenName: "Create"
-        };
-
-        let jVarLocalFetchHeaders = {
-            method: "post",
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(inFetchPostData)
-        };
+        let jVarLocalFetchUrl = `/${ConfigJson.StartUrl}/Suppliers/Show/DataOnly`;
 
         const response = await fetch(jVarLocalFetchUrl);
         const data = await response.json();

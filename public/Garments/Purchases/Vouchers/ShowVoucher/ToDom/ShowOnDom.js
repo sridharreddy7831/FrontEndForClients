@@ -5,15 +5,15 @@ import { StartFunc as TableFootSuccessStartFunc } from "../FetchFuncs/HtmlPull/T
 import { StartFunc as StartFuncQrCodesData } from "../FetchFuncs/QrCodesData/ToLocalStorage.js";
 import { StartFunc as StartFuncButtonClickFunc } from "../PullData/ShowOnDom/2-ButtonClickFunc.js";
 
-let StartFunc = async ({ inFolderName, inFileName, inItemName, inProjectName, inShowSuccess }) => {
+let StartFunc = async ({ inProjectName, inShowSuccess }) => {
     let jVarLocalRowPk = ReturnRowPK();
     let jVarLocalData = await StartFuncButtonClickFunc();
     let jVarLocalPurchaseItems = await StartFuncPurchaseItems();
 
-
     if (jVarLocalData) {
-        jVarLocalData.pk = jVarLocalRowPk.RowPK;
-        await ShowOnDom({ inData: jVarLocalData[0], inShowSuccess });
+        // jVarLocalData.pk = jVarLocalRowPk.RowPK;
+
+        await ShowOnDom({ inData: jVarLocalData, inShowSuccess });
         await InvGridStartFunc({ inData: jVarLocalPurchaseItems });
 
         jVarGlobalData = jVarLocalData;

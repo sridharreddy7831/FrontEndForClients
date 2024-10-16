@@ -1,6 +1,8 @@
+import ConfigJson from '../../../../../config.json' with {type: 'json'};
+
 let StartFunc = async () => {
     let jVarLocalRowPK = getUrlQueryParams({ inGetKey: "RowPK" });
-    let jVarLocalFetchUrl = `/bin/Vouchers/FilterData/pk/${jVarLocalRowPK}`;
+    let jVarLocalFetchUrl = `/${ConfigJson.StartUrl}/Vouchers/RowShow/${jVarLocalRowPK}`;
 
     let response = await fetch(jVarLocalFetchUrl);
     let jVarLocalResponse = await response.json();

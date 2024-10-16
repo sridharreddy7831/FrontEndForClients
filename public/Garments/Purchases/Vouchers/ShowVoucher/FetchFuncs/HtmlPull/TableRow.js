@@ -14,8 +14,7 @@ let StartFunc = async () => {
 
     } catch (error) {
         console.log("error:", error);
-    }
-
+    };
 };
 
 export { StartFunc };
