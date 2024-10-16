@@ -3,7 +3,7 @@ import ConfigJson from '../../../../config.json' with {type: 'json'};
 let FromNode = async () => {
     try {
         let jVarLocalRowPK = getUrlQueryParams({ inGetKey: "RowPK" });
-        let jVarLocalFetchUrl = `/${ConfigJson.StartUrl}/Generate/Search?Key=PurchasePk&Value=${jVarLocalRowPK}`;
+        let jVarLocalFetchUrl = `/${ConfigJson.StartUrl}/Generate/Search/AsArrayAsInt?Key=PurchasePk&Value=${jVarLocalRowPK}`;
 
         const response = await fetch(jVarLocalFetchUrl);
         const data = await response.json();

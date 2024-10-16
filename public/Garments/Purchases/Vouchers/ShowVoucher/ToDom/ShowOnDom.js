@@ -11,7 +11,7 @@ let StartFunc = async ({ inProjectName, inShowSuccess }) => {
     let jVarLocalPurchaseItems = await StartFuncPurchaseItems();
 
     if (jVarLocalData) {
-        // jVarLocalData.pk = jVarLocalRowPk.RowPK;
+        jVarLocalData.pk = jVarLocalRowPk.RowPK;
 
         await ShowOnDom({ inData: jVarLocalData, inShowSuccess });
         await InvGridStartFunc({ inData: jVarLocalPurchaseItems });
