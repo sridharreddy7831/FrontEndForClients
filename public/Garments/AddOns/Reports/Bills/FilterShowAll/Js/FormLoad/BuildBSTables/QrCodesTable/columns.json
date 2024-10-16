@@ -1,0 +1,80 @@
+[
+    {
+        "field": "id",
+        "title": "#",
+        "formatter": "jFGlobalSerialColumn"
+    },
+    {
+        "field": "BillNumber",
+        "titleTooltip": "BillNumber 2024 bills",
+        "title": "Bill #",
+        "filterControl": "select"
+
+    },
+    {
+        "field": "Date",
+        "title": "Date",
+        "formatter": "JFDate"
+    },
+    {
+        "field": "CustomerName",
+        "title": "Customer Name"
+    },
+    {
+        "field": "CustomerNumber",
+        "title": "Customer Number"
+    },
+    {
+        "field": "UnitRate",
+        "title": "Gross Amt",
+        "footerFormatter": "jFLocalUnitRateTotal",
+        "align": "right"
+    },
+    {
+        "field": "DisRate",
+        "title": "Disc",
+        "footerFormatter": "jFLocalDisRateTotal",
+        "align": "right"
+    },
+    {
+        "field": "ReturnAmount",
+        "title": "ReturnAmt",
+        "footerFormatter": "jFLocalDisRateTotal",
+        "align": "right"
+    },
+    {
+        "field": "BasicAmt",
+        "title": "Basic Amt",
+        "footerFormatter": "jFLocalBasicAmtTotal",
+        "align": "right"
+    },
+    {
+        "field": "GSTPercentage",
+        "title": "GST %",
+        "align": "right"
+    },
+    {
+        "field": "CgstAmount",
+        "title": "CGST",
+        "footerFormatter": "jFCgstAmountTotal",
+        "align": "right"
+
+    },
+    {
+        "field": "SgstAmount",
+        "title": "SGST",
+        "footerFormatter": "jFLocalSgstAmountTotal",
+        "align": "right"
+    },
+    {
+        "field": "AllTotalAmount",
+        "title": "Total Amt",
+        "footerFormatter": "jFTotalAmountTotal",
+        "halign": "left",
+        "align": "right"
+    }, {
+        "field": "PaymentMode",
+        "title": "Mode of Pay"
+    }
+    
+]

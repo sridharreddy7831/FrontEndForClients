@@ -1,0 +1,67 @@
+{
+  "HtmlFiles/All.html": {
+    "file": "assets/All-jjTEd6FF.js",
+    "name": "All",
+    "src": "HtmlFiles/All.html",
+    "isEntry": true,
+    "imports": [
+      "_style-CWPg30Uh.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/Delivered.html": {
+    "file": "assets/Delivered-DVtFUnuA.js",
+    "name": "Delivered",
+    "src": "HtmlFiles/Delivered.html",
+    "isEntry": true,
+    "imports": [
+      "_style-CWPg30Uh.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "HtmlFiles/Pending.html": {
+    "file": "assets/Pending-BxZB30eR.js",
+    "name": "Pending",
+    "src": "HtmlFiles/Pending.html",
+    "isEntry": true,
+    "imports": [
+      "_style-CWPg30Uh.js"
+    ],
+    "assets": [
+      "assets/favicon-DcIgDO7J.png",
+      "assets/apple-touch-icon-Ou6JeAuw.png",
+      "assets/profile-img-otNBDq-f.jpg"
+    ]
+  },
+  "_style-!~{004}~.js": {
+    "file": "assets/style-CkM8oOZw.css",
+    "src": "_style-!~{004}~.js"
+  },
+  "_style-CWPg30Uh.js": {
+    "file": "assets/style-CWPg30Uh.js",
+    "name": "style",
+    "css": [
+      "assets/style-CkM8oOZw.css"
+    ]
+  },
+  "assets/static/NiceAdmin/img/apple-touch-icon.png": {
+    "file": "assets/apple-touch-icon-Ou6JeAuw.png",
+    "src": "assets/static/NiceAdmin/img/apple-touch-icon.png"
+  },
+  "assets/static/NiceAdmin/img/favicon.png": {
+    "file": "assets/favicon-DcIgDO7J.png",
+    "src": "assets/static/NiceAdmin/img/favicon.png"
+  },
+  "assets/static/NiceAdmin/img/profile-img.jpg": {
+    "file": "assets/profile-img-otNBDq-f.jpg",
+    "src": "assets/static/NiceAdmin/img/profile-img.jpg"
+  }
+}
