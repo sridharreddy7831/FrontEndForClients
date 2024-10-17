@@ -1,6 +1,0 @@
-
-let StartFunc = () => {
-   
-};
-
-export { StartFunc }
