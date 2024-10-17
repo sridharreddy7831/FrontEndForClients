@@ -1,0 +1,47 @@
+[
+    {
+        "field": "id",
+        "title": "#",
+        "formatter": "jFGlobalSerialColumn"
+    },
+    {
+        "field": "pk",
+        "titleTooltip": "Bill No",
+        "title": "Bill #",
+        "filterControl": "select"
+
+    },
+    {
+        "field": "Date",
+        "title": "Date",
+        "formatter": "JFDate"
+    },
+    {
+        "field": "CustomerName",
+        "title": "Customer Name"
+    },
+    {
+        "field": "CustomerNumber",
+        "title": "Customer Number"
+    },
+    {
+        "field": "GAmount",
+        "title": "Gross Amt",
+        "footerFormatter": "jFLocalUnitRateTotal",
+        "align": "right"
+    },
+    {
+        "field": "deliveryItemDisAmount",
+        "title": "Disc Amt",
+        "footerFormatter": "jFLocalDisRateTotal",
+        "align": "right"
+    },
+    {
+        "field": "TotalAmount",
+        "title": "Total Amt",
+        "footerFormatter": "jFTotalAmountTotal",
+        "halign": "left",
+        "align": "right"
+    }
+    
+]

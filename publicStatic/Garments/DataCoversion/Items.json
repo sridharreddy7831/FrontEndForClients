@@ -1,0 +1,176 @@
+[
+  {
+    "pk": "2",
+    "ItemName": "NIGHTHY",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "3",
+    "ItemName": "NIGHT SUIT",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "4",
+    "ItemName": "NIGHT SLIPS",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "5",
+    "ItemName": "western wear",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "6",
+    "ItemName": "palazo",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "7",
+    "ItemName": "skirt",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "8",
+    "ItemName": "ready made blouse",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "9",
+    "ItemName": "dress materials",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "10",
+    "ItemName": "ready made",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "11",
+    "ItemName": "bed sheets ",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "12",
+    "ItemName": "sarees",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "13",
+    "ItemName": "t shirt",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "14",
+    "ItemName": "lehanga",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "15",
+    "ItemName": "kurti",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "16",
+    "ItemName": "material",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "17",
+    "ItemName": "stoles",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "18",
+    "ItemName": "IW",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "19",
+    "ItemName": "BANGLES",
+    "GST": "3",
+    "Factor": "1"
+  },
+  {
+    "pk": "20",
+    "ItemName": "Earrings",
+    "GST": "3",
+    "Factor": "1"
+  },
+  {
+    "pk": "21",
+    "ItemName": "jewellery",
+    "GST": "3",
+    "Factor": "1"
+  },
+  {
+    "pk": "22",
+    "ItemName": "hand bags",
+    "GST": "18",
+    "Factor": "1"
+  },
+  {
+    "pk": "23",
+    "ItemName": "bindies",
+    "GST": "3",
+    "Factor": "1"
+  },
+  {
+    "pk": "24",
+    "ItemName": "HAIR CLIPS",
+    "GST": "3",
+    "Factor": "1"
+  },
+  {
+    "pk": "25",
+    "ItemName": "LEGGINGS",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "26",
+    "ItemName": "SEGGERETTE PANT",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "27",
+    "ItemName": "KURTI PLAZO",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "28",
+    "ItemName": "dupattas",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "29",
+    "ItemName": "BLOUCE PEICE",
+    "GST": "5",
+    "Factor": "1"
+  },
+  {
+    "pk": "30",
+    "ItemName": "LACE",
+    "GST": "5",
+    "Factor": "1"
+  }
+]

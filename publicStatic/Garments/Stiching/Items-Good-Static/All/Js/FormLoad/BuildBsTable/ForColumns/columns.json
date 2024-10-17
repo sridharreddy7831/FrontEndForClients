@@ -1,0 +1,23 @@
+[
+    {
+        "field": "KS-Serial",
+        "title": "#",
+        "formatter": "jFGlobalSerialColumn"
+    },
+    {
+        "field": "ProductName",
+        "title": "ProductName"
+    },
+    {
+        "field": "GAmount",
+        "title": "GAmount"
+    },
+    {
+        "field": "FK",
+        "title": "StichRef"
+    },
+    {
+        "field": "DateTime",
+        "title": "Date"
+    }
+]

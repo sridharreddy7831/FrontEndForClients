@@ -5,7 +5,6 @@ dist/
 
 KData/
 publicDir/
-publicStatic/
 
 ColumnSchema/*.json
 TableSchema/*.json

@@ -1,0 +1,11 @@
+{
+    "inFolderName": "PurchaseReturns",
+    "inFileNameOnly": "QrCodeDetails",
+    "inItemName": "QrCodeDetails",
+    "inScreenName":"Create",
+    "inDataToInsert": {
+        "pk": "",
+        "ItemName": "",
+        "VoucherRef": ""
+    }
+}
