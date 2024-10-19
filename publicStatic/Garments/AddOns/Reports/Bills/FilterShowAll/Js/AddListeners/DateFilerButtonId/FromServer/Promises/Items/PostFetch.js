@@ -1,5 +1,9 @@
+import ConfigJson from '../../../../../Config.json' with {type: 'json'};
+
 let StartFunc = async () => {
-    let jVarLocalFetchUrl = `/bin/Items/DataOnly`;
+    const LocalStartRoute = ConfigJson.StartRoute;
+
+    let jVarLocalFetchUrl = `/${LocalStartRoute}/Items/Show/DataOnly`;
 
     let response = await fetch(jVarLocalFetchUrl);
     let data = await response.json();

@@ -1,4 +1,5 @@
 {
     "routePath": "Transactions",
-    "tableName": "Kakinada"
+    "tableName": "Kakinada",
+    "StartRoute": "binV4"
 }
