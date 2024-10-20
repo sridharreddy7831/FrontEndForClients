@@ -1,6 +1,7 @@
 import { StartFunc as StartFuncBillsQrCodeExpenFile } from "./OnExpandRowFunc.js";
 import posUrlJson from './posUrl.json' with {type: 'json'};
 import BillQR from './BilllQr.json' with {type: 'json'};
+import { StartFunc as fetchPos } from "./fetchPos.js";
 
 let StartFunc = async () => {
     jFLocalHideSpinner();
@@ -22,7 +23,7 @@ let jFLocalHideSpinner = () => {
 };
 
 let jFLocalInsertAggValues = async () => {
-    let jVarLocalPos = await jFLocalFetchpos();
+    let jVarLocalPos = await fetchPos();
     let jVarLocalBillsQrCode = await jFLocalFetchBillsQrCode();
 
     let jVarLocalReturnObject = jVarLocalPos.map(loopPos => {
