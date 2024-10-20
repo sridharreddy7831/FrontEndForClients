@@ -1,13 +1,13 @@
 import ConfigJson from '../../../Config.json' with {type: 'json'};
 
-let StartFunc = async () => { 
+let StartFunc = async () => {
     const jValLocalStartRoute = ConfigJson.StartRoute;
-    
-    let jVarLocalFetchUrl = `/${jValLocalStartRoute}/Generate/Show/DataOnly`;
+
+    let jVarLocalFetchUrl = `/${jValLocalStartRoute}/Vouchers/Show/DataOnly`;
     const response = await fetch(jVarLocalFetchUrl);
 
     const text = await response.json();
     return text;
 };
 
-export { StartFunc };
+export { StartFunc }
