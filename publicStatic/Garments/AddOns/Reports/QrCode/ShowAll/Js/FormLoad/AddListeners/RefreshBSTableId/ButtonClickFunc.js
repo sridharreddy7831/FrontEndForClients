@@ -1,4 +1,9 @@
 import { startFunc as fetchQrCodes } from "./fetchQrCodes.js";
+import { startFunc as jFLocalFetchPurchases } from "./jFLocalFetchPurchases.js";
+import { startFunc as jValjFLocalFetchBillsQrCode } from "./jValjFLocalFetchBillsQrCode.js";
+import { startFunc as jFLocalFetchSalesReturns } from "./jValjFLocalFetchSalesReturns.js";
+
+
 
 let StartFunc = async () => {
     jFLocalHideSpinner();
@@ -14,7 +19,7 @@ let StartFunc = async () => {
 };
 
 let jFLocalPromiseAll = async () => {
-    let jVarLocalPromises = [fetchQrCodes(), jFLocalFetchPurchases(), jFLocalFetchBillsQrCode(), jFLocalFetchSalesReturns()];
+    let jVarLocalPromises = [fetchQrCodes(), jFLocalFetchPurchases(), jValjFLocalFetchBillsQrCode(), jFLocalFetchSalesReturns()];
 
     let [a, b, c, d] = await Promise.allSettled(jVarLocalPromises);
 
